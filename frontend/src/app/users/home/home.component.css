@@ -1,0 +1,27 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #a18cd1;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(161, 140, 209, 0.5), rgba(251, 194, 235, 0.5));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(161, 140, 209, 0.5), rgba(251, 194, 235, 0.5));
+
+    height: 89vh;
+    background-size: cover;
+    font-size: xx-large;
+    font-weight: 500;
+    color: blue;
+    flex-direction: column;
+}
+
+small {
+    margin-top: -10rem;
+    font-size: 18px;
+
+}
+
+.text-shadow{
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5); 
+}

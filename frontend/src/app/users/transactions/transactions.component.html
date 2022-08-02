@@ -1,0 +1,14 @@
+<div class="gradient-custom">
+    <div class="container pt-5">
+        <div class="row p-3">
+            <h2 class="col-8">Item Name</h2>
+            <h2 class="col-2">Price</h2>
+            <h2 class="col-2">Quantity</h2>
+        </div>
+            <div class="row mb-3 p-2 shadow p-3 bg-info" *ngFor="let d of data">
+                <h4 class="col-8" >{{d.itemName}}</h4>
+                <p class="col-2">{{d.price}}</p>
+                <p class="col-2">{{d.quantity}}</p>
+            </div>
+    </div>
+</div>

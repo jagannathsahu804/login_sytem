@@ -1,0 +1,19 @@
+<div class="container pt-5 col-sm-6">
+    <div class="p-4 shadow p-3 mb-5 bg-body rounded">
+        <form [formGroup]="loginForm" (ngSubmit)="loginSubmit()">
+            <!-- error message show here -->
+            <div *ngIf="errmsgshow" class="text-danger">
+                <p>{{errmsg}}</p>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label text-primary text-opacity-75">Email address</label>
+              <input type="email" class="form-control" placeholder="Enter Your Email ID" formControlName="email">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label text-primary text-opacity-75">Password</label>
+              <input type="password" class="form-control" placeholder="Enter Your Password" formControlName="password">
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+          </form>
+    </div>
+</div>
