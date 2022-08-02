@@ -8,8 +8,8 @@ The routes are protected.
 Also an auto logout functionality to logout the user after 1 minute of inactivity.
 
 Softwares used
-  Angular cli
-  Mysql database
-  JSON web token
-  bcrypt for password encryption
-  Bootstrap 5
+  $ Angular cli
+  $ Mysql database
+  $ JSON web token
+  $ bcrypt for password encryption
+  $ Bootstrap 5
